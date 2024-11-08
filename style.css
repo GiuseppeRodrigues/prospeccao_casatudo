@@ -105,3 +105,46 @@ footer p {
     color: white;
     margin-top: 20px;
 }
+/* Consultas de mídia para responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header p {
+        padding-left: 10px;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    ul li {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    ul h2 {
+        font-size: 18px;
+    }
+
+    header, footer p {
+        font-size: 14px;
+    }
+
+    button a {
+        font-size: 10pt;
+    }
+}
